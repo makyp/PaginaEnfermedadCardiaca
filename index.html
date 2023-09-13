@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        color: #666666;
+        background-color: #f9f8f6;
+        background-image: url("images/dark-wood.jpg");
+        background-position: center;
+        font-family: Georgia, times, serif;
+        line-height: 1.4em;
+        margin: 0px;
+    }
+
+    .wrapper {
+        width: 940px;
+        margin: 20px auto 20px auto;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+    }
+
+    header {
+        background-color: #0073e6;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+
+    }
+
+    /* Estilos específicos para el contenido */
+    main {
+        padding: 20px;
+    }
+
+    /* Estilos para las secciones */
+    section {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        /* Se ocultan por defecto */
+    }
+
+    /* Estilos para las secciones cuando están seleccionadas */
+    section:target {
+        display: block;
+        /* Se muestran cuando son seleccionadas */
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    section input[type="text"],
+    section input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    section input[type="submit"] {
+        background-color: #0073e6;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    section input[type="submit"]:hover {
+        background-color: #0059b3;
+    }
+
+    article {
+        clear: both;
+        overflow: auto;
+        width: 100%;
+        border: #000000;
+        border-radius: 0cap;
+    }
+
+    hgroup {
+        margin-top: 40px;
+    }
+
+    figure {
+        float: left;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;
+    }
+
+    aside {
+        width: 230px;
+        float: left;
+        padding: 0px 0px 0px 20px;
+    }
+</style>
+
+<body>
+    <div></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#registro">Registro de Evaluación de Riesgo Cardíaco</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 style="text-align: center;">Bienvenido, aqui conocera toda la informacion relevante a las enfermedades
+                cardiacas</h1>
+            <p>Las enfermedades cardíacas incluyen una amplia gama de afecciones que afectan al corazón y a los vasos
+                sanguíneos. Algunas de las enfermedades cardíacas más comunes incluyen la enfermedad coronaria, la
+                insuficiencia cardíaca, las arritmias y las enfermedades de las válvulas cardíacas.
+            </p>
+            <h3>Causas</h3>
+            <p>Las causas de las enfermedades cardíacas pueden variar, pero las más comunes incluyen la
+                acumulación de placa en las arterias (aterosclerosis),
+                la hipertensión arterial, la diabetes, el tabaquismo, la obesidad, la falta de actividad física, el alto
+                consumo de grasas saturadas y el estrés.</p>
+            <h3>Sintomas</h3>
+            <p>Los síntomas de las enfermedades cardíacas pueden variar según la afección, pero algunos de los síntomas
+                comunes incluyen dolor en el pecho, dificultad para respirar, fatiga, palpitaciones, mareos y desmayos.
+            </p>
+            <h3>Diagnóstico:</h3>
+            <p>Los médicos pueden utilizar una serie de pruebas para diagnosticar enfermedades cardíacas, como
+                electrocardiogramas (ECG), ecocardiogramas, pruebas de esfuerzo y angiografías coronarias.</p>
+            <h3>Tratamiento:</h3>
+            <p>El tratamiento de las enfermedades cardíacas depende de la afección específica y la gravedad. Puede
+                incluir cambios en el estilo de vida, como una dieta saludable y ejercicio regular, medicamentos,
+                procedimientos invasivos (como angioplastia y cirugía de bypass) o incluso un trasplante de corazón en
+                casos graves.</p>
+            <h3>Prevención:</h3>
+            <p>La prevención desempeña un papel crucial en la gestión de las enfermedades cardíacas. Algunas medidas
+                preventivas clave incluyen:</p>
+
+
+            <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Dieta Saludable" />
+                    <figcaption>Dieta Saludable</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Dieta saludable:</h3>
+                </hgroup>
+                <p>Reducir la ingesta de grasas saturadas, colesterol y sodio, y aumentar la cantidad de frutas, verduras, granos enteros y pescado en la dieta.</p>
+            </article>
+
+           <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Actividad Física" />
+                    <figcaption>Actividad Fisica</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Actividad física:</h3>
+                </hgroup>
+                <p>Mantener un nivel de actividad física regular, como caminar, nadar o andar en bicicleta, puede ayudar a mantener el corazón saludable.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Dejar de fumar:" />
+                    <figcaption>Dejar de fumar:</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Dejar de fumar:</h3>
+                </hgroup>
+                <p>El tabaquismo es un importante factor de riesgo para las enfermedades cardíacas. Dejar de fumar reduce significativamente el riesgo.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Controlar la presión arterial y el colesterol:" />
+                    <figcaption>Controlar la presión arterial y el colesterol:</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Controlar la presión arterial y el colesterol:</h3>
+                </hgroup>
+                <p>Mantener la presión arterial y el colesterol en niveles saludables es fundamental para prevenir enfermedades cardíacas.</p>
+            </article>
+
+           <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Gestión del estrés:" />
+                    <figcaption>Gestión del estrés:</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Gestión del estrés:</h3>
+                </hgroup>
+                <p>El estrés crónico puede aumentar el riesgo de enfermedades cardíacas. Practicar técnicas de manejo del estrés, como la meditación y el yoga, puede ser beneficioso.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Controlar la diabetes:" />
+                    <figcaption>Controlar la diabetes:</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Controlar la diabetes:</h3>
+                </hgroup>
+                <p>Si tienes diabetes, es importante mantener tus niveles de azúcar en sangre bajo control, ya que la diabetes es un factor de riesgo para las enfermedades cardíacas.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Revisiones médicas regulares:" />
+                    <figcaption>Revisiones médicas regulares:</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Revisiones médicas regulares:</h3>
+                </hgroup>
+                <p>Consultar a un médico regularmente para evaluar tu salud cardíaca y realizar exámenes de detección es importante, especialmente si tienes factores de riesgo.</p>
+            </article>
+
+        </section>
+        <section id="registro">
+            <h2>Registro de Evaluación de Riesgo Cardíaco</h2>
+            <form action="guardar_paciente.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" name="peso" required>
+
+                <label for="colesterol_malo">Nivel de Colesterol Malo:</label>
+                <input type="number" id="colesterol_malo" name="colesterol_malo" required>
+
+                <label for="colesterol_bueno">Nivel de Colesterol Bueno:</label>
+                <input type="number" id="colesterol_bueno" name="colesterol_bueno" required>
+
+                <label for="hemoglobina">Hemoglobina:</label>
+                <input type="number" id="hemoglobina" name="hemoglobina" required>
+
+                <input type="submit" value="Guardar">
+            </form>
+        </section>
+
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>En esta sección, conocerás más sobre nuestro equipo y nuestra misión en la prevención de enfermedades
+                cardíacas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Mi Sitio Web</p>
+    </footer>
+</body>
+
+</html>
