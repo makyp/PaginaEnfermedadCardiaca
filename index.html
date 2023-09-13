@@ -9,24 +9,19 @@
 </head>
 <style>
     body {
-        color: #666666;
-        background-color: #f9f8f6;
-        background-image: url("images/dark-wood.jpg");
+        background-color: #FFB6B9;
         background-position: center;
         font-family: Georgia, times, serif;
         line-height: 1.4em;
-        margin: 0px;
-    }
+        margin: 1px;
+        position: relative;
+        padding-bottom: 3em;
+        min-height: 100vh;
 
-    .wrapper {
-        width: 940px;
-        margin: 20px auto 20px auto;
-        border: 2px solid #000000;
-        background-color: #ffffff;
     }
 
     header {
-        background-color: #0073e6;
+        background-color: #FFB6B9;
         color: #fff;
         padding: 10px 0;
     }
@@ -53,9 +48,17 @@
         background-color: #333;
         color: #fff;
         text-align: center;
-        font-size: 80%;
-        padding: 7px 0px 0px 20px;
+        position: absolute;
+        padding: 1em 0;
+        bottom: 0;
+        width: 100%;
 
+    }
+
+    p {
+        color: #5a5a5a;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     /* Estilos específicos para el contenido */
@@ -65,9 +68,9 @@
 
     /* Estilos para las secciones */
     section {
-        background-color: #fff;
-        padding: 20px;
-        margin-top: 20px;
+        background-color: #ffffff;
+        padding: 30px;
+        margin-top: 30px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         display: none;
         /* Se ocultan por defecto */
@@ -79,7 +82,13 @@
         /* Se muestran cuando son seleccionadas */
     }
 
-    section h2 {
+    h1 {
+        color: #61c0bf;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: #4BBCF4;
         font-size: 1.5rem;
     }
 
@@ -114,21 +123,22 @@
         clear: both;
         overflow: auto;
         width: 100%;
-        border: #000000;
-        border-radius: 0cap;
+        border-radius: 5cqb;
+
     }
 
     hgroup {
         margin-top: 40px;
     }
 
-    figure {
+    figure img {
         float: left;
         width: 290px;
         height: 220px;
         padding: 5px;
         margin: 20px;
         border: 1px solid #eeeeee;
+        border-radius: 2cqb;
     }
 
     aside {
@@ -139,7 +149,10 @@
 </style>
 
 <body>
-    <div></div>
+    <div>
+        
+    </div>
+
     <header>
         <nav>
             <ul>
@@ -152,8 +165,7 @@
 
     <main>
         <section id="home">
-            <h1 style="text-align: center;">Bienvenido, aqui conocera toda la informacion relevante a las enfermedades
-                cardiacas</h1>
+            <h1 style="text-align: center; font-size: xx-large;">Enfermedades cardiacas</h1>
             <p>Las enfermedades cardíacas incluyen una amplia gama de afecciones que afectan al corazón y a los vasos
                 sanguíneos. Algunas de las enfermedades cardíacas más comunes incluyen la enfermedad coronaria, la
                 insuficiencia cardíaca, las arritmias y las enfermedades de las válvulas cardíacas.
@@ -180,114 +192,129 @@
                 preventivas clave incluyen:</p>
 
 
-            <article>
+            <article style="background-color: #eae9f5;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Dieta Saludable" />
-                    <figcaption>Dieta Saludable</figcaption>
+                    <img src="images/comidasaludable.jpeg" alt="Dieta Saludable" />
                 </figure>
                 <hgroup>
                     <h3>Dieta saludable:</h3>
                 </hgroup>
-                <p>Reducir la ingesta de grasas saturadas, colesterol y sodio, y aumentar la cantidad de frutas, verduras, granos enteros y pescado en la dieta.</p>
+                <p>Reducir la ingesta de grasas saturadas, colesterol y sodio, y aumentar la cantidad de frutas,
+                    verduras, granos enteros y pescado en la dieta.</p>
             </article>
+            &nbsp;
 
-           <article>
+            <article style="background-color: #dbe6ff;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Actividad Física" />
-                    <figcaption>Actividad Fisica</figcaption>
+                    <img src="images/actividadfisica.jpeg" alt="Actividad Física" />
                 </figure>
                 <hgroup>
                     <h3>Actividad física:</h3>
                 </hgroup>
-                <p>Mantener un nivel de actividad física regular, como caminar, nadar o andar en bicicleta, puede ayudar a mantener el corazón saludable.</p>
+                <p>Mantener un nivel de actividad física regular, como caminar, nadar o andar en bicicleta, puede ayudar
+                    a mantener el corazón saludable.</p>
             </article>
-            <article>
+            &nbsp;
+            <article style="background-color: #eae9f5;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Dejar de fumar:" />
-                    <figcaption>Dejar de fumar:</figcaption>
+                    <img src="images/nofumar.jpeg" alt="Dejar de fumar:" />
                 </figure>
                 <hgroup>
                     <h3>Dejar de fumar:</h3>
                 </hgroup>
-                <p>El tabaquismo es un importante factor de riesgo para las enfermedades cardíacas. Dejar de fumar reduce significativamente el riesgo.</p>
+                <p>El tabaquismo es un importante factor de riesgo para las enfermedades cardíacas. Dejar de fumar
+                    reduce significativamente el riesgo.</p>
             </article>
-            <article>
+            &nbsp;
+            <article style="background-color: #dbe6ff;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Controlar la presión arterial y el colesterol:" />
-                    <figcaption>Controlar la presión arterial y el colesterol:</figcaption>
+                    <img src="images/presionarterial.jpeg" alt="Controlar la presión arterial y el colesterol:" />
                 </figure>
                 <hgroup>
                     <h3>Controlar la presión arterial y el colesterol:</h3>
                 </hgroup>
-                <p>Mantener la presión arterial y el colesterol en niveles saludables es fundamental para prevenir enfermedades cardíacas.</p>
+                <p>Mantener la presión arterial y el colesterol en niveles saludables es fundamental para prevenir
+                    enfermedades cardíacas.</p>
             </article>
+            &nbsp;
 
-           <article>
+            <article style="background-color: #eae9f5;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Gestión del estrés:" />
-                    <figcaption>Gestión del estrés:</figcaption>
+                    <img src="images/controlestres.jpeg" alt="Gestión del estrés:" />
                 </figure>
                 <hgroup>
                     <h3>Gestión del estrés:</h3>
                 </hgroup>
-                <p>El estrés crónico puede aumentar el riesgo de enfermedades cardíacas. Practicar técnicas de manejo del estrés, como la meditación y el yoga, puede ser beneficioso.</p>
+                <p>El estrés crónico puede aumentar el riesgo de enfermedades cardíacas. Practicar técnicas de manejo
+                    del estrés, como la meditación y el yoga, puede ser beneficioso.</p>
             </article>
-            <article>
+            &nbsp;
+            <article style="background-color: #dbe6ff;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Controlar la diabetes:" />
-                    <figcaption>Controlar la diabetes:</figcaption>
+                    <img src="images/controlardiabetes.jpeg" alt="Controlar la diabetes:" />
                 </figure>
                 <hgroup>
                     <h3>Controlar la diabetes:</h3>
                 </hgroup>
-                <p>Si tienes diabetes, es importante mantener tus niveles de azúcar en sangre bajo control, ya que la diabetes es un factor de riesgo para las enfermedades cardíacas.</p>
+                <p>Si tienes diabetes, es importante mantener tus niveles de azúcar en sangre bajo control, ya que la
+                    diabetes es un factor de riesgo para las enfermedades cardíacas.</p>
             </article>
-            <article>
+            &nbsp;
+            <article style="background-color: #eae9f5;">
                 <figure>
-                    <img src="images/bok-choi.jpg" alt="Revisiones médicas regulares:" />
-                    <figcaption>Revisiones médicas regulares:</figcaption>
+                    <img src="images/revisionesmedicas.jpeg" alt="Revisiones médicas regulares:" />
                 </figure>
                 <hgroup>
                     <h3>Revisiones médicas regulares:</h3>
                 </hgroup>
-                <p>Consultar a un médico regularmente para evaluar tu salud cardíaca y realizar exámenes de detección es importante, especialmente si tienes factores de riesgo.</p>
+                <p>Consultar a un médico regularmente para evaluar tu salud cardíaca y realizar exámenes de detección es
+                    importante, especialmente si tienes factores de riesgo.</p>
             </article>
+            &nbsp;
+            <p> </p>
+            <h3>Te dejamos un video con medidas de prevención adicionales que puedes tomar:</h3>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/BP4PkVg_P2k?si=OEvbfx4U3-TctCV3&amp;start=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
 
         </section>
         <section id="registro">
-            <h2>Registro de Evaluación de Riesgo Cardíaco</h2>
-            <form action="guardar_paciente.php" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+            <h1>Registro de Evaluación de Riesgo Cardíaco</h2>
+                <form action="guardar_paciente.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-                <label for="edad">Edad:</label>
-                <input type="number" id="edad" name="edad" required>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
 
-                <label for="peso">Peso (kg):</label>
-                <input type="number" id="peso" name="peso" required>
+                    <label for="peso">Peso (kg):</label>
+                    <input type="number" id="peso" name="peso" required>
 
-                <label for="colesterol_malo">Nivel de Colesterol Malo:</label>
-                <input type="number" id="colesterol_malo" name="colesterol_malo" required>
+                    <label for="colesterol_malo">Nivel de Colesterol Malo:</label>
+                    <input type="number" id="colesterol_malo" name="colesterol_malo" required>
 
-                <label for="colesterol_bueno">Nivel de Colesterol Bueno:</label>
-                <input type="number" id="colesterol_bueno" name="colesterol_bueno" required>
+                    <label for="colesterol_bueno">Nivel de Colesterol Bueno:</label>
+                    <input type="number" id="colesterol_bueno" name="colesterol_bueno" required>
 
-                <label for="hemoglobina">Hemoglobina:</label>
-                <input type="number" id="hemoglobina" name="hemoglobina" required>
+                    <label for="hemoglobina">Hemoglobina:</label>
+                    <input type="number" id="hemoglobina" name="hemoglobina" required>
 
-                <input type="submit" value="Guardar">
-            </form>
+                    <input type="submit" value="Guardar">
+                </form>
         </section>
 
         <section id="nosotros">
-            <h2>Nosotros</h2>
-            <p>En esta sección, conocerás más sobre nuestro equipo y nuestra misión en la prevención de enfermedades
-                cardíacas.</p>
+            <h3>Nosotros</h3>
+            <p>Esta página fue desarrolladar por: <br> -Iván Alejandro Carrillo Rodriguez <br> -Maira Tatiana Quiroga Peralta</p>
         </section>
     </main>
 
     <footer>
-        <p>Derechos de autor &copy; 2023 Mi Sitio Web</p>
+        <p>Derechos de autor &copy; Makyp & Aleky</p>
     </footer>
 </body>
 
