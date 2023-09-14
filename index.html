@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Web</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <script type="modular" src="Formulario.js"></script>
 <style>
     body {
         background-color: #FFB6B9;
@@ -284,7 +284,7 @@
         </section>
         <section id="registro">
             <h1>Registro de Evaluación de Riesgo Cardíaco</h2>
-                <form action="guardar_paciente.php" method="POST">
+                <form id="formularioRegistro">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
 
@@ -306,16 +306,13 @@
                     <input type="submit" value="Guardar">
                 </form>
         </section>
-
         <section id="nosotros">
             <h3>Nosotros</h3>
             <p>Esta página fue desarrolladar por: <br> -Iván Alejandro Carrillo Rodriguez <br> -Maira Tatiana Quiroga Peralta</p>
         </section>
     </main>
-
     <footer>
         <p>Derechos de autor &copy; Makyp & Aleky</p>
     </footer>
 </body>
-
 </html>
